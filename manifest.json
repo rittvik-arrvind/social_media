@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "name":"TimeZone",
+    "version":"2.0.1",
+    "description":"FIND YOUR TIME AND TIMEZONE AND ALSO USE IT TO QUICKLY GO TO SOCIAL MEDIA APPS",
+    "icons":{
+        "128":"clock.png"
+    },
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"clock.png",
+        "default_title":"TimeZone"
+    },
+    "permissions":["activeTab"],
+    "background":{
+        "scripts":["main.js"]
+
+    }
+}
